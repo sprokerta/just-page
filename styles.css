@@ -1,0 +1,95 @@
+body {
+    background-color: beige;
+    font-size: 30px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: brown;
+}
+h2, h3 {
+    color: brown;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+p {
+    color: darkblue;
+    font-family:  Hand, cursive;
+}
+
+.darkblue {
+    color: darkblue;
+    font-family: 'Poppins', sans-serif;
+}
+.darkred {
+    color: darkred;
+    font-family: 'Poppins', sans-serif;
+}
+.darkgreen {
+    color: darkgreen;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.card1 {
+    background-color: lightblue;
+    box-shadow: 4px 4px 4px blue;
+    border-radius: 10%;
+ padding: 10px;
+ margin-bottom: 15px;
+}
+.card2 {
+    background-color: lightpink;
+    box-shadow: 4px 4px 4px red;
+    border-radius: 15%;
+ padding: 10px;
+ margin-bottom: 15px;
+}
+.card3 {
+    background-color: lightgreen;
+    box-shadow: 4px 4px 4px green;
+    border-radius: 15%;
+  padding: 10px;
+}
+.card4 {
+    background-color: rgb(205, 174, 205);
+    box-shadow: 4px 4px 4px purple;
+    border-radius: 15%;
+  padding: 10px;
+}
+ul {
+    font-family:  Hand, cursive;
+    list-style-type: square;
+    color: brown;
+}
+ol {
+    color: darkblue;
+    font-family:  Hand, cursive;
+}
+.table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gifka {
+    margin-left: 20px;
+    width: 250px;
+
+}
+table {
+    
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+th,
+td {
+    padding: 10px;
+    border: 3px solid darkblue;
+}

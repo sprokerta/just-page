@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: beige;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-header {
+    max-width: 700px;
+    margin: 50px auto 30px;
+    text-align: center;
+}
+
+.section-header h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: darkblue;
+    font-family: 'Caveat', cursive; 
+}
+
+.images {
+    padding: 50px 15px;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.images-container .img-item {
+    width: calc(33.333% - 10px);
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5%;
+    box-shadow: 4px 4px 8px rgba(139, 0, 0, 0.6);
+    transition: transform 0.3s ease;
+}
+
+.images-container .img-item:hover {
+    transform: scale(1.05);
+}
+
+.images-container img {
+    width: 100%;
+    display: block;
+    border-radius: 5%;
+}
+

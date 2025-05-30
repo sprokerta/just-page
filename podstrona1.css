@@ -1,0 +1,31 @@
+body {
+    background-color: beige;
+    font-size: 30px;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: darkred;
+}
+p {
+    color: darkred;
+    font-family:  Hand, cursive;
+}
+div {
+    background-color: lightblue;
+    box-shadow: 4px 4px 4px blue;
+    border-radius: 2%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+img {
+    box-sizing: border-box;
+    float: right;
+    font-weight: 350;
+    height: 300px;
+    border-radius: 5%;
+    box-shadow: 4px 4px 4px darkred;
+}
+p {
+    font-size: 30px;
+}
